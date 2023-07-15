@@ -14,7 +14,7 @@
                   &emsp;&emsp;&emsp;&emsp;b. Hệ thống phát sinh khoá bí mật Ks và mã hoá tập tin P thành tập tin C bằng thuật
                   toán AES\
                   &emsp;&emsp;&emsp;&emsp;c. Hệ thống phát sinh cặp khoá Kprivate và Kpublic của thuật toán RSA và mã hoá
-                  khoá Ks bằng khoá Kpublic, output là chuỗi Kx.\
+                  khoá Ks bằng khoá&emsp;&emsp;&emsp;&emsp; Kpublic, output là chuỗi Kx.\
                   &emsp;&emsp;&emsp;&emsp;d. Hệ thống lưu lại chuỗi Kx kèm theo giá trị hash SHA-1 của Kprivate (gọi là
                   HKprivate). Có thể xuất thành file C.metadata, với C là tên của tập tin C ở trên, cấu trúc tập tin là tuỳ chọn (XML, JSON, Plain text…).\
                   &emsp;&emsp;&emsp;&emsp;e. Hệ thống kết xuất khoá Kprivate cho người dùng (có thể xuất ra file).\
