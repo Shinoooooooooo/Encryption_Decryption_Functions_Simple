@@ -1,6 +1,6 @@
 # Shinooooooo - MSSV: 20127066 - Trường: HCMUS
 Đồ án ANMT:
-- Code 1 hệ thống mã hoá đơn giản gồm các chức năng ( Part A ):\
+- **Code 1 hệ thống mã hoá đơn giản gồm các chức năng ( Part A ):**\
           &emsp;&emsp;1. Cho phép phát sinh một khoá bí mật Ks của thuật toán AES\
           &emsp;&emsp;2. Mã hoá tập tin sử dụng thuật toán AES với khoá Ks\
           &emsp;&emsp;3. Giải mã tập tin sử dụng thuật toán AES với khoá Ks\
@@ -8,7 +8,7 @@
           &emsp;&emsp;5. Mã hoá một chuỗi sử dụng thuật toán RSA sử dụng khoá Kpublic\
           &emsp;&emsp;6. Giải mã một chuỗi sử dụng thuật toán RSA sử dụng khoá Kprivate\
           &emsp;&emsp;7. Tính giá trị hash của một chuỗi sử dụng thuật toán SHA-1, SHA-256\
-- Code 1 ứng dụng mã hoá đơn giản bao gồm các chức năng sau ( Part B ):\
+- **Code 1 ứng dụng mã hoá đơn giản bao gồm các chức năng sau ( Part B ):**\
           &emsp;&emsp;1. Cho phép người dùng mã hoá một tập tin theo các bước:\
                   &emsp;&emsp;a. Người dùng chọn tập tin cần mã hoá (tập tin P)\
                   &emsp;&emsp;b. Hệ thống phát sinh khoá bí mật Ks và mã hoá tập tin P thành tập tin C bằng thuật
