@@ -10,19 +10,19 @@
           &emsp;&emsp;7. Tính giá trị hash của một chuỗi sử dụng thuật toán SHA-1, SHA-256\
 - **Code 1 ứng dụng mã hoá đơn giản bao gồm các chức năng sau ( Part B ):**\
           &emsp;&emsp;1. Cho phép người dùng mã hoá một tập tin theo các bước:\
-                  &emsp;&emsp;a. Người dùng chọn tập tin cần mã hoá (tập tin P)\
-                  &emsp;&emsp;b. Hệ thống phát sinh khoá bí mật Ks và mã hoá tập tin P thành tập tin C bằng thuật
+                  &emsp;&emsp;&emsp;&emsp;a. Người dùng chọn tập tin cần mã hoá (tập tin P)\
+                  &emsp;&emsp;&emsp;&emsp;b. Hệ thống phát sinh khoá bí mật Ks và mã hoá tập tin P thành tập tin C bằng thuật
                   toán AES\
-                  &emsp;&emsp;c. Hệ thống phát sinh cặp khoá Kprivate và Kpublic của thuật toán RSA và mã hoá
+                  &emsp;&emsp;&emsp;&emsp;c. Hệ thống phát sinh cặp khoá Kprivate và Kpublic của thuật toán RSA và mã hoá
                   khoá Ks bằng khoá Kpublic, output là chuỗi Kx.\
-                  &emsp;&emsp;d. Hệ thống lưu lại chuỗi Kx kèm theo giá trị hash SHA-1 của Kprivate (gọi là
+                  &emsp;&emsp;&emsp;&emsp;d. Hệ thống lưu lại chuỗi Kx kèm theo giá trị hash SHA-1 của Kprivate (gọi là
                   HKprivate). Có thể xuất thành file C.metadata, với C là tên của tập tin C ở trên, cấu
                   trúc tập tin là tuỳ chọn (XML, JSON, Plain text…).\
-                  &emsp;&emsp;e. Hệ thống kết xuất khoá Kprivate cho người dùng (có thể xuất ra file).\
+                  &emsp;&emsp;&emsp;&emsp;e. Hệ thống kết xuất khoá Kprivate cho người dùng (có thể xuất ra file).\
           &emsp;&emsp;2. Cho phép người dùng giải mã một tập tin theo các bước:\
-                  &emsp;&emsp;a. Người dùng chọn tập tin cần giải mã (tập tin C)\
-                  &emsp;&emsp;b. Người dùng nhập khoá Kprivate (có thể chọn từ file)\
-                  &emsp;&emsp;c. Hệ thống kiểm tra giá trị hash SHA-1 của Kprivate có trùng với HKprivate không? Nếu không trùng thì giải mã thất bại, nếu trùng thì tiếp tục các bước sau:\
-                  &emsp;&emsp;d. Giải mã chuỗi Kx để có được Ks dùng Kprivate.\
-                  &emsp;&emsp;e. Dùng Ks giải mã tập tin C thành tập tin P.\
+                  &emsp;&emsp;&emsp;&emsp;a. Người dùng chọn tập tin cần giải mã (tập tin C)\
+                  &emsp;&emsp;&emsp;&emsp;b. Người dùng nhập khoá Kprivate (có thể chọn từ file)\
+                  &emsp;&emsp;&emsp;&emsp;c. Hệ thống kiểm tra giá trị hash SHA-1 của Kprivate có trùng với HKprivate không? Nếu không trùng thì giải mã thất bại, nếu trùng thì tiếp tục các bước sau:\
+                  &emsp;&emsp;&emsp;&emsp;d. Giải mã chuỗi Kx để có được Ks dùng Kprivate.\
+                  &emsp;&emsp;&emsp;&emsp;e. Dùng Ks giải mã tập tin C thành tập tin P.\
 
