@@ -1,7 +1,7 @@
 # Shinooooooo
 Đồ án ANMT:\
 - Code 1 hệ thống mã hoá đơn giản gồm các chức năng ( Part A ):\
-          \t1. Cho phép phát sinh một khoá bí mật Ks của thuật toán AES\
+          /t1. Cho phép phát sinh một khoá bí mật Ks của thuật toán AES\
           2. Mã hoá tập tin sử dụng thuật toán AES với khoá Ks\
           3. Giải mã tập tin sử dụng thuật toán AES với khoá Ks\
           4. Phát sinh một cặp khoá Kprivate và Kpublic của thuật toán RSA\
