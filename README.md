@@ -1,4 +1,4 @@
-# Shinooooooo
+# Shinooooooo - MSSV: 20127066 - Trường: HCMUS
 Đồ án ANMT:
 - Code 1 hệ thống mã hoá đơn giản gồm các chức năng ( Part A ):\
           &emsp;&emsp;1. Cho phép phát sinh một khoá bí mật Ks của thuật toán AES\
