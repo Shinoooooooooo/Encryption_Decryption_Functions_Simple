@@ -22,7 +22,7 @@
           &emsp;&emsp;2. Cho phép người dùng giải mã một tập tin theo các bước:\
                   &emsp;&emsp;a. Người dùng chọn tập tin cần giải mã (tập tin C)\
                   &emsp;&emsp;b. Người dùng nhập khoá Kprivate (có thể chọn từ file)\
-                  &emsp;&emsp;c. Hệ thống kiểm tra giá trị hash SHA-1 của Kprivate có trùng với HKprivate không?Nếu không trùng thì giải mã thất bại, nếu trùng thì tiếp tục các bước sau:\
+                  &emsp;&emsp;c. Hệ thống kiểm tra giá trị hash SHA-1 của Kprivate có trùng với HKprivate không? Nếu không trùng thì giải mã thất bại, nếu trùng thì tiếp tục các bước sau:\
                   &emsp;&emsp;d. Giải mã chuỗi Kx để có được Ks dùng Kprivate.\
                   &emsp;&emsp;e. Dùng Ks giải mã tập tin C thành tập tin P.\
 
